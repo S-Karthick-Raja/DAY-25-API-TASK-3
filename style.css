@@ -1,68 +1,12 @@
 .container {
-  background-color: rgb(0, 19, 67);
-  color: white;
-}
-
-.corona {
-  display: flex;
+  margin: 0 auto;
   text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin-top: 150px;
-}
-.corona img {
-  width: 10rem;
-  height: 10rem;
-  object-fit: cover;
-}
-.corona > div:nth-child(2) {
-  padding: 1rem 0rem 0rem 1rem;
-}
-form {
-  text-align: center;
-  margin: -1rem 0rem 0rem 0rem;
-}
-.btn1 {
-  width: 10rem;
-  height: 2rem;
-  background-color: whitesmoke;
-}
-
-.btn2 {
-  width: 15rem;
-  height: 2rem;
-  margin-top: 1rem;
-  background-color: whitesmoke;
-}
-.pic {
-  align-items: center;
-  text-align: center;
-  justify-content: center;
 }
 img {
-  width: 30rem;
-  height: 30rem;
-  object-fit: contain;
-}
-
-@media (min-width: 700px) {
-  img {
-    width: 40rem;
-    height: 40rem;
-    object-fit: contain;
-  }
-  .pic {
-    margin-top: -7rem;
-  }
-}
-
-@media (min-width: 900px) {
-  img {
-    width: 50rem;
-    height: 50rem;
-    object-fit: contain;
-  }
-  .pic {
-    margin-top: -7rem;
-  }
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background: rgb(158, 158, 158);
+  margin: 0.25rem 0.25rem 0.25rem 0.25rem;
+  border-radius: 0.5rem;
 }
